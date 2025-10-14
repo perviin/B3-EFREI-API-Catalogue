@@ -1,8 +1,8 @@
 const data = require("../data.json");
+
 class Products {
   static getAll() {
-    console.log("za");
-    return data;
+    return JSON.stringify(data);
   }
 }
 

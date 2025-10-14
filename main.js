@@ -15,4 +15,4 @@ app.use(cors({ origin: "*", credentials: true }));
 
 app.get("/api/", (req, res) => res.send("Bienvenue sur mon API !"));
 
-app.get("/api/products", (req, res) => res.send(Products.getAll));
+app.route("/api/products").get((req, res) => res.json(Products.getAll()));
