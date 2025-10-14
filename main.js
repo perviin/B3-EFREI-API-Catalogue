@@ -13,6 +13,16 @@ app.listen(PORT, () => console.log(`Serveur lancé sur le port ${PORT}`));
 app.use(express.json());
 app.use(cors({ origin: "*", credentials: true }));
 
-app.get("/api/", (req, res) => res.send("Bienvenue sur mon API !"));
+const baseRoute = "/api";
+const baseRouteProduct = `${baseRoute}/products`;
 
-app.route("/api/products").get((req, res) => res.json(Products.getAll()));
+app.get(`${baseRoute}`, (req, res) => res.send("Bienvenue sur mon API !"));
+
+const ProductsController = {
+  getAll: (req, res) => res.json(Products.getAll()),
+  getById: (req, res) => res.json(Products.getById(req.params.id)),
+};
+
+app.route(`${baseRouteProduct}`).get(ProductsController.getAll);
+
+app.route(`${baseRouteProduct}/:id`).get(ProductsController.getById);
