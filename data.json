@@ -1,0 +1,94 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Clavier mécanique RGB",
+      "description": "Clavier gaming avec switches bleus et rétroéclairage RGB complet.",
+      "prix": 89.99,
+      "stock": 42,
+      "categorie": "Informatique",
+      "image": "https://example.com/images/clavier-rgb.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "Souris sans fil ergonomique",
+      "description": "Souris Bluetooth rechargeable, design ergonomique pour le confort prolongé.",
+      "prix": 34.9,
+      "stock": 58,
+      "categorie": "Accessoires",
+      "image": "https://example.com/images/souris-ergonomique.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "Écran 27'' 4K",
+      "description": "Moniteur UHD 27 pouces, dalle IPS, 144Hz.",
+      "prix": 299.99,
+      "stock": 12,
+      "categorie": "Informatique",
+      "image": "https://example.com/images/ecran-4k.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "Casque audio Bluetooth",
+      "description": "Casque sans fil avec réduction active du bruit et autonomie de 30h.",
+      "prix": 129.0,
+      "stock": 25,
+      "categorie": "Audio",
+      "image": "https://example.com/images/casque-bluetooth.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Chaise de bureau ergonomique",
+      "description": "Chaise avec soutien lombaire réglable et accoudoirs ajustables.",
+      "prix": 199.5,
+      "stock": 14,
+      "categorie": "Mobilier",
+      "image": "https://example.com/images/chaise-bureau.jpg"
+    },
+    {
+      "id": 6,
+      "nom": "Disque SSD NVMe 1TB",
+      "description": "SSD ultra-rapide pour ordinateurs portables et de bureau.",
+      "prix": 79.99,
+      "stock": 67,
+      "categorie": "Stockage",
+      "image": "https://example.com/images/ssd-nvme.jpg"
+    },
+    {
+      "id": 7,
+      "nom": "Lampe de bureau LED",
+      "description": "Lampe à intensité réglable avec port USB de recharge.",
+      "prix": 24.9,
+      "stock": 83,
+      "categorie": "Maison",
+      "image": "https://example.com/images/lampe-led.jpg"
+    },
+    {
+      "id": 8,
+      "nom": "Webcam Full HD 1080p",
+      "description": "Caméra USB avec micro intégré, idéale pour visioconférences.",
+      "prix": 49.99,
+      "stock": 33,
+      "categorie": "Informatique",
+      "image": "https://example.com/images/webcam-hd.jpg"
+    },
+    {
+      "id": 9,
+      "nom": "Enceinte Bluetooth portable",
+      "description": "Enceinte compacte, étanche, avec 12h d’autonomie.",
+      "prix": 59.99,
+      "stock": 46,
+      "categorie": "Audio",
+      "image": "https://example.com/images/enceinte-portable.jpg"
+    },
+    {
+      "id": 10,
+      "nom": "Tapis de souris XXL",
+      "description": "Tapis antidérapant couvrant tout le bureau, surface micro-texturée.",
+      "prix": 19.99,
+      "stock": 120,
+      "categorie": "Accessoires",
+      "image": "https://example.com/images/tapis-xxl.jpg"
+    }
+  ]
+}
