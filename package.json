@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "nodemon main.js"
+    "dev": "npx nodemon main.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
